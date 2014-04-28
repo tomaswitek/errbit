@@ -114,6 +114,7 @@ end
 
 group :heroku, :production do
   gem 'unicorn', :require => false
+  gem 'newrelic_rpm'
 end
 
 
